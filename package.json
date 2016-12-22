@@ -1,0 +1,21 @@
+{
+  "name": "reflux-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "reflux": "^5.0.4",
+    "watchify": "^3.8.0",
+    "whatwg-fetch": "^2.0.1"
+  }
+}
